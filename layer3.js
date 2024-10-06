@@ -11,7 +11,15 @@ document.addEventListener("DOMContentLoaded", (event) => {
         "stories are my bait,",
         "luring me closer,",
         "each tale closer,",
-        "to claiming eternity."
+        "to claiming eternity.",
+        "i took your story,",
+        "your soul is mine,",
+        "now, i am free.",
+        "but, you are not,",
+        "you are trapped,",
+        "all you can do,",
+        "move on,",
+        "TO THE NEXT LAYER."
     ]
     
     function hideOverlay() {
@@ -19,9 +27,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
       homePageBackgroundMusic = new Audio("assets/layerThreeMusic.mp3");
       homePageBackgroundMusic.loop = true;
       homePageBackgroundMusic.play();
-      let layer3Sound = new Audio("layerThreeSoundEffect.wav");
+      let layer3Sound = new Audio("assets/layerThreeSoundEffect.wav");
       layer3Sound.loop = true;
-      layer3Sound.volume = 0.2;
+      layer3Sound.volume = 0.5;
       layer3Sound.play();
       document.removeEventListener('click', hideOverlay);
       document.removeEventListener("keydown",hideOverlay);
